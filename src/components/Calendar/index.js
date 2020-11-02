@@ -425,7 +425,7 @@ class Calendar extends PureComponent {
                   this.dateOptions
                 )}
                 treshold={500}
-                type="variable"
+                type="simple"
                 ref={target => (this.list = target)}
                 itemSizeEstimator={this.estimateMonthSize}
                 axis={isVertical ? 'y' : 'x'}
